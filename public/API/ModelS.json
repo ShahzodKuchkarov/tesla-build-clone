@@ -1,0 +1,29 @@
+{
+    "name": "Model S",
+    "image": "tesla_s.jpg",
+    "plaid": {
+        "range": "396 mi",
+        "quarterMile": "9.23s",
+        "peakPower": "1,020hp",
+        "wheels": "19 or 21",
+        "cargo": "28 cu ft",
+        "weight": "4,766 lbs",
+        "acceleration": "1.99s",
+        "topSpeed": "200mph",
+        "dragCoef": "0.208 Cd",
+        "powertrain": "Tri Motor",
+        "superCharging": "250 kW"
+    },
+    "longRange": {
+        "range": "405 mi ",
+        "peakPower": "670 hp",
+        "wheels": "670 hp",
+        "cargo": "28 cu ft",
+        "acceleration": "3.1s",
+        "topSpeed": "155 mph",
+        "dragCoef": "0.208 Cd",
+        "weight": "4,561 lbs",
+        "powertrain": "Dual Motor",
+        "superCharging": "250 kW"
+    }
+}

@@ -8,7 +8,7 @@ export const Main = Styled.div`
     align-items:center;
     padding: 0 20px;
     background: transparent ;
-    position:fixed;
+    position:absolute;
     left:0;
     right:0;
     z-index:1;

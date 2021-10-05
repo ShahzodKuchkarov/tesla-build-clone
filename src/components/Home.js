@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Main } from '../Style/Home';
 import HomeCard from '../Containers/HomeCard';
 import { Link } from 'react-router-dom';
@@ -9,12 +9,15 @@ import Footer from '../components/Footer';
 function Home() {
 
 
-
     const [dotPosition, setDotPosition] = useState('right');
+
+
+
 
     return (
         <Main>
             <div className="home">
+
                 <Carousel dotPosition={dotPosition}>
                     <div className="carousel__item">
                         <HomeCard className="model_s"
@@ -94,7 +97,6 @@ function Home() {
                         </div>
                     </div>
                 </Carousel>
-
             </div>
         </Main>
 

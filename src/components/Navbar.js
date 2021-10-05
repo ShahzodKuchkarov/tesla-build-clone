@@ -8,17 +8,20 @@ function Navbar() {
         <Main>
             <div className="navbar">
                 <div className="navbar__logo">
-                    <img src={Logo} alt="" />
+                    <Link to="/">
+                        <img src={Logo} alt="" />
+                    </Link>
+
                 </div>
                 <div className="navbar__products">
                     <ul className="navbar__products__list">
                         <li className="navbar__products__list__item">
-                            <Link>
+                            <Link to="/models">
                                 Model S
                             </Link>
                         </li>
                         <li className="navbar__products__list__item">
-                            <Link>
+                            <Link to="/model3">
                                 Model 3
                             </Link>
                         </li>
